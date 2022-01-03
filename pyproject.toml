@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = ["snbk97 <snbk97@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+celery = "^5.2.3"
+
+[tool.poetry.dev-dependencies]
+Flask = "^2.0.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
