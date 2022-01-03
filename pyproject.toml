@@ -5,8 +5,9 @@ description = ""
 authors = ["snbk97 <snbk97@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "~3.8"
 celery = "^5.2.3"
+redis = "^4.1.0"
 
 [tool.poetry.dev-dependencies]
 Flask = "^2.0.2"
